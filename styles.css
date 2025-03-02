@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 60px;
+}
+
+.button {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.news {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.news a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news a:hover {
+    text-decoration: underline;
+}
