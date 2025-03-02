@@ -1,63 +1,68 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
     text-align: center;
-    margin: 0;
-    padding: 0;
+    color: #fff;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
+    position: relative;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.logo {
-    height: 60px;
+.logo-left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
 }
 
-.button {
-    display: inline-block;
-    background: #007bff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
+.logo-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
 }
 
-.button:hover {
-    background: #0056b3;
+h1 {
+    margin: 50px 0;
 }
 
-.news {
-    background: white;
-    padding: 20px;
-    margin: 20px auto;
-    width: 50%;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.news ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
     padding: 0;
 }
 
-.news li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-.news a {
-    color: #007bff;
+nav ul li a {
+    color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
-.news a:hover {
-    text-decoration: underline;
+section#novinky {
+    margin-top: 50px;
+}
+
+section#novinky ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#novinky ul li {
+    margin: 10px 0;
+}
+
+section#novinky ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
